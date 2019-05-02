@@ -7,5 +7,13 @@ def is_triangle(a,b,c):
 		print("You can")
 
 
-is_triangle(3,4,5)
+def user_input_for_triangle_check():
+	a=int(input("Enter the value of a: "))
+	b=int(input("Enter the value of b: "))
+	c=int(input("Enter the value of c: "))
+
+	is_triangle(a,b,c)
+
+
+user_input_for_triangle_check()
 
