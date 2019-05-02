@@ -1,9 +1,14 @@
 def grid_line():
-	print('+','---',sep='',end="")
+	i=1
+	while i<=2:
+		print('+','---',sep='',end="")
+		i+=1
 	
 def draw_bar():
-	print('|   ',sep='',end="")
-	
+	j=1
+	while j<=2:
+		print('|   ',sep='',end="")
+		j+=1
 
 
 
