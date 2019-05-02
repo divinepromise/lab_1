@@ -7,5 +7,5 @@ def ack(m,n):
 		return ack(m-1,ack(m,n-1))
 
 
-result = ack(1,2)
+result = ack(3,4)
 print(result)
